@@ -1,0 +1,4 @@
+MRUBY_CFLAGS = -O2 -mno-smart-io -w -ffunction-sections -fdata-sections -g -mdebugger -Wcast-align -fno-short-double -mprocessor=32MX795F512L -DF_CPU=80000000L -DARDUINO=23 -D_BOARD_MEGA_ -DMPIDEVER=0x01000202 -DMPIDE=23 -DMRB_HEAP_PAGE_SIZE=64 -DMRB_USE_IV_SEGLIST -DKHASH_DEFAULT_SIZE=8 -DMRB_STR_BUF_MIN_SIZE=20 -DMRB_GC_STRESS -I\"/work/mruby/include\" -I\"/Applications/Mpide.app/Contents/Resources/Java/hardware/pic32/cores/pic32\" -I\"/Applications/Mpide.app/Contents/Resources/Java/hardware/pic32/variants/Max32\" -I\"/Applications/Mpide.app/Contents/Resources/Java/hardware/pic32/libraries\" -I\"/work/mruby/mrbgems/mruby-print/include\" -I\"/work/mruby/mrbgems/mruby-math/include\" -I\"/work/mruby/mrbgems/mruby-enum-ext/include\" -I\"/work/mruby/build/mrbgems/mruby-hs-regexp/include\"
+MRUBY_LDFLAGS = 
+MRUBY_LDFLAGS_BEFORE_LIBS = 
+MRUBY_LIBS = -lm
